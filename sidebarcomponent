@@ -1,0 +1,13 @@
+// components/Sidebar.tsx
+export default function Sidebar() {
+  return (
+    <div className="w-60 bg-black p-5 border-r border-gray-800 h-screen">
+      <h1 className="text-2xl font-bold mb-8">Spotify</h1>
+      <ul className="space-y-4 text-gray-400">
+        <li className="hover:text-white cursor-pointer">Home</li>
+        <li className="hover:text-white cursor-pointer">Search</li>
+        <li className="hover:text-white cursor-pointer">Your Library</li>
+      </ul>
+    </div>
+  );
+}
